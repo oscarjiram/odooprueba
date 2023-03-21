@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem
+            id="menu_module_school"
+            name="Intranet" />
+    <menuitem
+            id="menu_school_student"
+            name="Estudiantes"
+            action="school_student_action"
+            parent="menu_module_school" />
+    <menuitem
+            id="menu_school_subject"
+            name="Aulas"
+            action="school_subject_action"
+            parent="menu_module_school" />
+    <menuitem
+            id="menu_school_teacher"
+            name="Profesores"
+            action="school_teacher_action"
+            parent="menu_module_school" />
+</odoo>
